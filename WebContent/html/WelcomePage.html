@@ -1,0 +1,76 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Welcome!</title> 
+<style>
+.scroll{
+  /* The image used */
+  background-image: url("WelcomeLogo.jpg");
+
+  /* Set a specific height */
+  min-height: 350px; 
+
+  /* Create the parallax scrolling effect */
+  background-attachment: fixed;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+.box {
+  background-color: lightgrey;
+  width: 50%;
+  border: 10px solid #7a7a7a;
+  padding: 25px;
+  margin: auto;
+  opacity: 0.4;
+  height:350px;
+  
+  text-align: justify;
+}
+
+
+a{
+  color:#6a6a6b;
+  border: 3px solid gray;
+  text-align:center;
+}
+a:hover {
+  background-color: lightgray;
+  color:black;
+}
+
+.center {
+  /*position:relative;*/
+  top:20%;
+  /*left:38%;*/
+  margin: 0 auto;
+  margin-left: 40%;
+  
+}
+
+</style>
+</head>
+<body>
+
+<h1 style="text-align:center;color:gray;height:75px;font-size:300%;">Welcome!</h1>
+
+<div class="scroll"></div>
+
+<div class="box scroll" style="font-family:Courier New; font-size:18px;">
+<b><p>Our site is here to help students! 
+Here you can chat with other students who are taking the same courses as you. 
+They are using the same text books as you! Find out how other students are going through
+the same classes and figuring out problems that you face.</p></b>
+
+<br><br>
+
+<b><a class="center" href=/TheStudentLounge/LoginServlet>Log in here</a></b>
+
+</div>
+
+
+</body>
+<footer><h6>&copy; 2019 TheStudentLounge.com By: Rochel Leah, Faigy, Shifra, Chaya and Chana Bina!<h6></footer>
+</html>

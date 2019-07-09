@@ -1,0 +1,91 @@
+@CHARSET "ISO-8859-1";
+
+body {font-family: Arial, Helvetica, sans-serif;
+    margin: 0 auto;
+    max-width: 800px;
+    padding: 0 20px;
+}
+
+/*light gray boxes*/
+.container {
+    background-color: #f1f1f1;
+    border-radius: 50px;
+    padding: 5px;
+    margin: 10px 0;
+
+}
+
+/*dark gray - user posts*/
+.darker {
+    border-color: #ccc;
+    background-color: rgb(0,112,192);
+    color: white;
+}
+
+.container::after {
+    content: "";
+    clear: both;
+    display: table;
+}
+
+.time-right {
+    float: right;
+    color: black;
+    margin-right: 30px;
+}
+
+.time-left {
+    float: left;
+    color: white;
+    margin-left: 30px;
+}
+
+/* Full-width input fields */
+input[type=text], input[type=password] {
+    width: 100%;
+    padding: 12px 20px;
+    margin: 8px 0;
+    border: 1px solid #ccc;
+    box-sizing: border-box;
+}
+
+/* Set a style for submit button */
+button {
+    background-color: #4CAF50;
+    color: white;
+    padding: 14px 20px;
+    margin: 8px 0;
+    border: none;
+    cursor: pointer;
+    width: 100%;
+}
+
+button:hover {
+    opacity: 0.8;
+}
+
+
+.container {
+    padding: 16px;
+}
+
+span.psw {
+    float: right;
+    padding-top: 16px;
+}
+
+/* Add Zoom Animation */
+.animate {
+    -webkit-animation: animatezoom 0.6s;
+    animation: animatezoom 0.6s
+}
+
+@-webkit-keyframes animatezoom {
+    from {-webkit-transform: scale(0)} 
+    to {-webkit-transform: scale(1)}
+}
+    
+@keyframes animatezoom {
+    from {transform: scale(0)} 
+    to {transform: scale(1)}
+}
